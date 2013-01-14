@@ -8,5 +8,5 @@ We are not currently using inLastic, but we will support the plugin for future i
 
 INFO:
 Test state: Infrancy.
-Tested in browsers: Chrome, FireFox, Safari, Opera
+Tested in browsers: Chrome, FireFox, Safari, Opera.
 Issues: none;
