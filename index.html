@@ -1,0 +1,50 @@
+<!--
+* InLastic from Cloud Laboratories LTD.
+* Copyright 2013 (c) Cloud Laboratories LTD.
+* Dual licensed under the MIT and GPL licenses:
+* http://www.opensource.org/licenses/mit-license.php
+* http://www.gnu.org/licenses/gpl.html
+-->
+
+<html>
+  <head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		
+		<!-- include jQuery -->
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+		
+		<!-- include inlastic -->
+		<link rel="stylesheet" href="css/light.css" type="text/css" />
+		<script type="text/javascript" src="js/inlastic.js"></script>
+	
+		<!-- Assign inlastic to an element -->
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$('#inlasticBox1').inlastic();
+			});
+		</script>
+		
+		<style type="text/css">
+			#inlasticBox1 {
+				position:absolute;
+				top:100px;
+				left:100px;
+			}
+		</style>	
+	</head>
+		<body>
+			<div id="container">
+				<!-- inLastic InfoTip box -->
+				<div id="inlasticBox1" class="inlasticBoxWrap">
+					<div class="inlasticBoxButton">
+						<div class="inlasticBox">
+							<span>
+								<!-- Place content in here --> inLastic gives you an easy way of providing elegant InfoTips like this one you are viewing right now. They are 100% customizable though a CSS file.
+							</span>
+						</div>
+					</div>
+				</div>
+				<!-- end -->	
+			</div>
+		</body>
+</html>
