@@ -1,0 +1,44 @@
+/*
+* InLastic from Cloud Laboratories LTD.
+* Copyright 2013 (c) Cloud Laboratories LTD.
+* Dual licensed under the MIT and GPL licenses:
+* http://www.opensource.org/licenses/mit-license.php
+* http://www.gnu.org/licenses/gpl.html
+*/
+
+  .inlasticBoxButton {
+		width:30px;
+		height:30px;
+		border:10px solid #f2f2f2;
+		background-color:#444;
+		opacity:.8;
+		border-radius:200px;
+	}
+	
+	.inlasticBoxButton:hover {
+		opacity:1;
+	}
+		
+	.inlasticBox {
+		width:400px;
+		display:none;
+		position:absolute;
+		top:15px;
+		left:20px;
+	}
+	
+	.inlasticBoxWrap {
+		display:block;
+	}
+	
+	.bgf {
+		background-color:#ffffff;
+	}
+	
+	.sixbr {
+		border-radius:6px;
+		opacity:1;
+	}
+
+	.sixbr span {
+	}
